@@ -1,0 +1,78 @@
+* {
+  font-family: 'Century Gothic';
+}
+li {
+  list-style-type: none;
+  display: inline;
+  margin-left: 10px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h5 {
+  color: white;
+}
+nav {
+  display: flex;
+  height: 9vh;
+  justify-content: space-around;
+  position: sticky;
+  align-items: center;
+  border-bottom: 1px solid gray;
+
+}
+nav .header {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav .navbar-links {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  cursor: pointer;
+  
+}
+nav .navbar-links a {
+  font-size: 14px;
+  font-weight: normal;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+nav .navbar-links a:hover {
+  cursor: pointer;
+  color: white;
+}
+nav .burger-menu {
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+.nav-active {
+  color: white;
+}
+
+@media all and (max-width: 777px) {
+  nav .burger-menu {
+    display: block;
+  }
+  nav .navbar-links {
+    background-color: black;;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    padding: 0px;
+    transform: translate(-700px);
+  }
+  nav .navbar-links li {
+    padding: 25px;
+    border-top: 3px solid white;
+  }
+}

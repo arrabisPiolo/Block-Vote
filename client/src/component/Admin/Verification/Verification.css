@@ -1,0 +1,10 @@
+.btn-verification {
+  padding: 11px;
+  width: 100%;
+  margin-top: 11px;
+  margin-bottom: 11px;
+  float: inline-end;
+}
+td,th{
+  background-color: #333;
+}

@@ -1,0 +1,57 @@
+.div-li {
+  display: inline-grid;
+}
+.input-r {
+  margin: 0.5em;
+  margin-left: 0;
+  display: block;
+  overflow: scroll;
+  border: 1px solid #ccd0d5;
+  padding: 15px;
+  outline: none; 
+  border-radius: 6px;
+}
+.label-r {
+  margin: 0.1em;
+  padding: 0.5em;
+  display: block;
+}
+
+.btn-add {
+  width: 50%;
+  padding: 1em;
+  float: inline-end;
+  margin: 1em;
+  color: white;
+  border: solid 2px transparent;
+  border-color: white;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px rgb(29,30,34) inset;
+}
+.btn-add:disabled {
+  padding: 1em;
+  float: inline-end;
+  margin: 1em;
+  color: rgb(137, 137, 137);
+  border: solid 2px transparent;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #0b0f2c, 
+  #422030);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px rgb(29,30,34) inset;
+}
+.note {
+  width: 90%;
+  padding: 11px;
+  padding-left: 1px;
+  text-align: justify;
+  max-height: 111px;
+  overflow: auto;
+  line-height: 1.5em;
+}
+
+.attention {
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  border-radius: 7px;
+}
